@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    /* padding: 0;
+    margin: 0; */
+    
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: hsl(240, 78%, 98%);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color:  hsl(233, 13%, 49%);
+  
+}
+
+.container{
+    margin: auto;
+    max-width: 100%;
+    width: 1200px;
+}
+
+.flex{
+      display: flex;
+     align-items: center;
+     justify-content: center;
+} 
+
+h1{
+    color:hsl(234, 14%, 74%) ;
+}
+.toggle-container{
+
+    color: hsl(234,  14%,  74%);
+
+    margin: 50px;
+
+
+}
+
+.price-box{
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,  0, 0,  1);
+    padding: 30px;
+    margin: 10px;
+}
+
+.mid{
+    background-image: linear-gradient( 
+        to right,
+        hsl(236, 72%, 79%),
+         hsl(237, 63%, 64%)
+    ) ;
+
+   /* // background-color: hsl(232, 13%, 33%); */
+    color: #fff;
+    transform:scale(1.2) ;
+}
+
+.price-box p{
+    font-size: 4em;
+    margin: 0;
+
+}
+
+.price-box ul{
+    list-style: none;
+}
+
+.price-box ul li{
+    border-bottom: 1px solid hsl(233, 13%, 49%);  ;
+    padding: 15px 0 ;
+}
+
+.price-box button{
+    background-image: linear-gradient( 
+        to right,
+        hsl(236, 72%, 79%),
+         hsl(237, 63%, 64%)
+    );
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+
+}
+
+.price-box button a{
+    color: #fff;
+    text-decoration: none;
+}
+.price-box button{
+    background-color: #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.price-box button a:hover{
+    
+    margin: 3px;
+    padding: 3px;
+}
+.price-box ul li{
+    display: block;
+}
+
+.toggle-container  label{
+    background-image: linear-gradient( 
+        to right,
+        hsl(236, 72%, 79%),
+         hsl(237, 63%, 64%)
+    ) ;
+    border-radius: 50px;
+
+    position: relative;
+
+    display: inline-block;
+    height: 30px;
+    width: 70px;
+}
+
+
+.toggle-container.ball{
+    height: 20px;
+    width: 50%;background-color: #fff;
+    position:absolute;
+}
+.toggle-container input{
+    position:absolute;
+    left: -999px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .flex{
+     flex-direction: column;
+  }
+}
+
+
+
